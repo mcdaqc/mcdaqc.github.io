@@ -56,7 +56,7 @@ max_width: 1000px
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-serve_schema_org: true # Include Schema.org in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
 og_image: assets\img\prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -133,11 +133,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  #news:
-  #  defaults:
-  #    layout: post
-  #  output: true
-  #  permalink: /:collection/:title/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
   
   projects:
     output: true
@@ -359,9 +359,9 @@ parallel_localization: false
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
-    - 120
-    - 200
-    - 350
+    - 480
+    - 800
+    - 1400
   input_directories:
     - assets/img/
   input_formats:
@@ -395,7 +395,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
