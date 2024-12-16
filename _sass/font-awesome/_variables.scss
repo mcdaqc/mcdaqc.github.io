@@ -2545,7 +2545,10 @@ $fa-var-korvue: \f42f;
 $fa-var-pix: \e43a;
 $fa-var-steam-symbol: \f3f6;
 
+$fa-var-hugging-face: \e4bb;
+
 $fa-icons: (
+  "hugging-face": $fa-var-hugging-face,
   "0": $fa-var-0,
   "1": $fa-var-1,
   "2": $fa-var-2,

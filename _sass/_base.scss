@@ -217,7 +217,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%; // tamaño imagen
 
     .address {
       p {
@@ -1379,4 +1379,21 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+
+
+// Reducir márgenes globales
+.container {
+  max-width: 960px;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+// Reducir márgenes en dispositivos móviles
+@media (max-width: 576px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
