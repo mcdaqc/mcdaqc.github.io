@@ -4,7 +4,7 @@ layout: profiles
 permalink: /people/
 title: people
 description: members of the lab or group
-nav: false
+nav: false #editado
 nav_order: 7
 
 profiles:

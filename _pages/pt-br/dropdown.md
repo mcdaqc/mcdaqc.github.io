@@ -2,7 +2,7 @@
 id: dropdown
 layout: page
 title: submenus
-nav: true
+nav: false #editado
 nav_order: 8
 dropdown: true
 children:

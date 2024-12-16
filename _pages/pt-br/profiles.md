@@ -4,7 +4,7 @@ layout: profiles
 permalink: /people/
 title: membros
 description: membros do grupo de pesquisa ou laboratório
-nav: true
+nav: false #editado
 nav_order: 7
 
 profiles:
