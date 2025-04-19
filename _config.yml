@@ -7,7 +7,7 @@ first_name: David
 middle_name: 
 last_name: Quispe
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: assets\img\icon3.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: assets\img\icon3.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mcdaqc.github.io # the base hostname & protocol for your site
 baseurl: #/multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
