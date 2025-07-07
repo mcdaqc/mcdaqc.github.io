@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: "Cybersecurity Technician @ <a href='https://www.fiiapp.org/'>FIIAPP</a> | Systems Engineer | AI/ML Expert " #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "" #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -21,8 +21,16 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Hi 👋🙂  
+Hi 👋🙂
 
-I am a [Systems Engineering](https://uandina.edu.pe/) graduate with a focus on Cybersecurity and AI/ML frameworks, currently pursuing a degree in [Systems Network Administration](https://digitechfp.com/) in Madrid, Spain. My professional journey has led me to work as a Cybersecurity Intern at FIIAPP, where I focus on building and securing systems  in alignment with international information security standards such as ``ISO 27001``, ``NIST``, and ``ENS``.  
+I am a Systems Engineering graduate specialized in cybersecurity and artificial intelligence **frameworks**.
 
-My academic and technical background includes optimizing and ``fine-tuning`` Large Language Models (LLMs), implementing ``quantization`` techniques to enhance efficiency, and exploring ``retrieval-augmented generation`` (RAG) methods for AI applications. I am passionate about leveraging AI and embedded systems to develop educational tools that address challenges in underserved communities, particularly in rural areas.  
+My cybersecurity background includes vulnerability intelligence, secure architecture design, and adversarial threat modeling, implemented across hybrid infrastructures under international frameworks such as `ISO/IEC 27001/22301`, `NIST CSF`, and `ENS`. I ensure compliance with data protection regulations like `GDPR`, integrating access control, traceability, and rapid response mechanisms in regulated environments.
+
+In AI, I build modular systems around large language models, with emphasis on `prompt engineering`, behavioral control, and secure deployment. I develop agentic architectures with planning and tool-use capabilities, including `code-executing agents` operating in sandboxed, auditable environments. Data pipelines involve filtering, augmentation, and synthetic data generation via simulation and controlled sampling to support both supervised and reinforcement learning. Alignment strategies include `DPO` and `GRPO`, with robustness enhanced through adversarial evaluation.
+
+My work integrates `AI safety` principles across the model lifecycle—aligned with the `AI Act` (EU), `GDPR`, the `OECD AI Principles`, and `ISO/IEC TR 24368`, which provides technical guidance on AI system risks, resilience, and trustworthiness. I aim to build systems that are trustworthy, compliant, and technically robust for real-world, high-stakes environments.
+
+
+
+

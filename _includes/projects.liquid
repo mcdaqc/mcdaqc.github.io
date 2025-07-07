@@ -1,5 +1,6 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  <!-- Commented out to disable clicking on entire card - uncomment to re-enable individual project pages -->
+  <!-- <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"> -->
     <div class="card h-100 hoverable">
       {% if project.img %}
         {%
@@ -12,8 +13,22 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        {% if project.category == "collaborations" %}
+          <div class="mb-2">
+            <span class="badge badge-warning" style="font-size: 0.75em; background-color: #e55a2b; border-color: #e55a2b; color: white;">
+              🤝 Hugging Face
+            </span>
+          </div>
+        {% endif %}
+        <h2 class="card-title">{{ project.title }} {% if project.year %}<small class="text-muted">({{ project.year }})</small>{% endif %}</h2>
         <p class="card-text">{{ project.description }}</p>
+        {% if project.tags %}
+          <div class="tags mb-2">
+            {% for tag in project.tags %}
+              <span class="badge badge-primary mr-1 mb-1">#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
@@ -28,8 +43,15 @@
               {% endif %}
             </div>
           {% endif %}
+          {% if project.huggingface %}
+            <div class="huggingface-icon ml-2">
+              <div class="icon" data-toggle="tooltip" title="Hugging Face">
+                <a href="{{ project.huggingface }}"><span style="font-size: 1.2em;">🤗</span></a>
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
-  </a>
+  <!-- </a> -->
 </div>

@@ -5,8 +5,9 @@ title: project 1
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: work # comentado
 related_publications: true
+tags: [photography, web design, portfolio, bootstrap, responsive]
 ---
 
 Every project has a beautiful feature showcase page.

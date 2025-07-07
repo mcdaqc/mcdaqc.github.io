@@ -7,7 +7,7 @@ first_name: David
 middle_name: 
 last_name: Quispe
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: icon3.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon2.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mcdaqc.github.io # the base hostname & protocol for your site
 baseurl: #/multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -111,13 +111,17 @@ disqus_shortname: multi-language-al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
-#  - name: Google Blog
-#    posts:
-#      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#        published_date: 2024-05-14
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@mcdaqc/feed
+  - name: github.com
+    posts:
+      - url: https://gist.github.com/mcdaqc/563c7a92af8da9d911b4f358858d8504
+        published_date: 2025-01-07
+  - name: huggingface.co
+    posts:
+      - url: https://huggingface.co/blog/daqc/private-synthetic-data-generation
+        published_date: 2025-03-05
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -189,6 +193,7 @@ exclude:
   - package-lock.json
   - _pages/en-us/about_einstein.md
   - _pages/pt-br/about_einstein.md
+  - _posts_template/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -253,8 +258,10 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["wsl2", "docker", "windows", "virtualization", "disk-management", "javascript", "css", "browser", "dark-theme", "web-development"] # Tags from your blog posts
+display_categories: ["tutorials", "system-administration", "web-development"] # Categories from your blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

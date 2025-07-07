@@ -6,6 +6,11 @@ blog:
 categories:
   fun: fun
   work: work
+  personal: personal
+  collaborations: collaborations
+  tutorials: tutorials
+  system-administration: system administration
+  web-development: web development
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"

@@ -3,9 +3,11 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: al-folio in english
-description: a simple whitespace theme for academics
-nav: false # editado
+# blog_name: al-folio in english
+# description: a simple whitespace theme for academics
+# blog_name: MCDAQC Blog
+# description: Technical tutorials, system administration, and development insights
+nav: true # habilitado para mostrar posts de Medium
 nav_order: 1
 pagination:
   enabled: true

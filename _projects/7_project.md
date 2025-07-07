@@ -4,8 +4,9 @@ title: project 7
 description: with background image
 img: assets/img/4.jpg
 importance: 1
-category: work
+category: work # comentado
 related_publications: true
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
